@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '-'
+const prefix = '+'
 
 client.on('ready', () => {
     console.log(`~~~~~~~~~~~~~~~~~`);
@@ -9,7 +9,7 @@ client.on('ready', () => {
     console.log(`on  ${client.guilds.size} Servers `);
     console.log(`~~~~~~~~~~~~~~~~~~~~~~~~`);
     console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setGame(`#Riyderz Quran |-quran`,"http://twitch.tv/y04zgamer")
+    client.user.setGame(`#Riyderz Quran |+quran`,"http://twitch.tv/y04zgamer")
     client.user.setStatus("dnd")
  });
 
